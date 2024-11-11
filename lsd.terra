@@ -1,0 +1,45 @@
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}/colors.yaml"
+---
+user: "#{{ mauve.hex }}"
+group: "#{{ lavender.hex }}"
+permission:
+  read: "#{{ green.hex }}"
+  write: "#{{ yellow.hex }}"
+  exec: "#{{ maroon.hex }}"
+  exec-sticky: "#{{ mauve.hex }}"
+  no-access: "#{{ subtext0.hex }}"
+  octal: "#{{ teal.hex }}"
+  acl: "#{{ teal.hex }}"
+  context: "#{{ sky.hex }}"
+date:
+  hour-old: "#{{ teal.hex }}"
+  day-old: "#{{ sky.hex }}"
+  older: "#{{ sapphire.hex }}"
+size:
+  none: "#{{ subtext0.hex }}"
+  small: "#{{ green.hex }}"
+  medium: "#{{ yellow.hex }}"
+  large: "#{{ peach.hex }}"
+inode:
+  valid: "#{{ pink.hex }}"
+  invalid: "#{{ subtext0.hex }}"
+links:
+  valid: "#{{ pink.hex }}"
+  invalid: "#{{ subtext0.hex }}"
+tree-edge: "#{{ subtext1.hex }}"
+git-status:
+  default: "#{{ text.hex }}"
+  unmodified: "#{{ subtext0.hex }}"
+  ignored: "#{{ subtext0.hex }}"
+  new-in-index: "#{{ green.hex }}"
+  new-in-workdir: "#{{ green.hex }}"
+  typechange: "#{{ yellow.hex }}"
+  deleted: "#{{ red.hex }}"
+  renamed: "#{{ green.hex }}"
+  modified: "#{{ yellow.hex }}"
+  conflicted: "#{{ red.hex }}"
