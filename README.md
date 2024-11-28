@@ -38,21 +38,14 @@
 
 **⚠️Make sure your LSD version is at least 1.1.0**
 
-1. Download the flavor of your choice.
-2. Copy the `colors.yaml` file to `$HOME/.config/lsd/`
+1. Download the flavor of your choice
+2. Copy the `colors.yaml` file to [`$HOME/.config/lsd/`](https://github.com/lsd-rs/lsd?tab=readme-ov-file#configuration)
 3. Update `$HOME/.config/lsd/config.yaml` (create one if it doesn't exist) to include
 
 ```
   color:
     theme: custom
 ```
-
-<!-- The FAQ section is optional. Remove if needed.-->
-
-## 🙋 FAQ
-
-- Q: **_"What if I can't find my $HOME?"_**\
-  A: Refer to the [Configuration](https://github.com/lsd-rs/lsd?tab=readme-ov-file#configuration) to figure out how to configure for your specific environment.
 
 ## 💝 Thanks to
 
